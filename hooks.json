@@ -1,0 +1,14 @@
+[
+  {
+    "name": "mETH Looping Hook",
+    "protocol": "INIT",
+    "url": "https://app.init.capital/hooks/looping/0x5071c003bb45e49110a905c1915ebdd2383a89df",
+    "contractAddress": "0x5071c003bb45e49110a905c1915ebdd2383a89df",
+    "logoUrl": "https://app.init.capital/static/icons/protocols/init.svg",
+    "type": "LOOPING",
+    "supportedAssets": ["0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111", "0xcDA86A272531e8640cD7F1a92c01839911B90bb0"],
+    "description": "Open a leveraged mETH position by depositing ETH or mETH, and borrow ETH up to 5x",
+    "apyEndpoint": "",
+    "fee": ""
+  }
+]
