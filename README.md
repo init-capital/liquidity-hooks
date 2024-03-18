@@ -14,8 +14,8 @@ Before you can submit your Liquidity Hook, please ensure you have completed the 
 
 To submit your Liquidity Hook for integration, you will need to open a Pull Request (PR) with the necessary information. Here is a step-by-step guide on what to do:
 
-1. **Open a PR:** Navigate to the `hooks.json` file in our repository and open a Pull Request to propose your changes.
-2. **Provide Required Information:** In the PR description, you must include a JSON object with the following structure and data:
+1. **Fork this repo**: Fork this repo to your account/org.
+2. **Provide Required Information:** Navigate to the `hooks.json` file. In the changes, you must include a JSON object with the following structure and data:
 
 ```json
 {
@@ -31,6 +31,7 @@ To submit your Liquidity Hook for integration, you will need to open a Pull Requ
     "fee": "Optional: If the hook has a fee, specify it here"
 }
 ```
-3. **Wait for Approval:** After submitting your PR, please wait for our team to review it. We may request changes or additional information. Once your PR is approved and merged, your Liquidity Hook will be shown on INIT's frontend.
+3. **Open a PR:** Open the PR using "Compare Across Fork" to propose your changes.
+4. **Wait for Approval:** After submitting your PR, please wait for our team to review it. We may request changes or additional information. Once your PR is approved and merged, your Liquidity Hook will be shown on INIT's frontend.
 
 Thank you for contributing to our project and enhancing INIT's ecosystem with your Liquidity Hook!
