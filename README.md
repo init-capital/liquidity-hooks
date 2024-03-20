@@ -15,9 +15,17 @@ Before you can submit your Liquidity Hook, please ensure you have completed the 
 To submit your Liquidity Hook for integration, you will need to open a Pull Request (PR) with the necessary information. Here is a step-by-step guide on what to do:
 
 1. **Fork this repo**: Fork this repo to your account/org.
-2. **Provide Required Information:** Navigate to the `hooks.json` file. This JSON file contains a list of hooks grouped by ChainID. In the changes, you must include a JSON object with the following structure and data in every ChainID where your hooks are launched:
+2. **Provide Required Information:** Navigate to the `hooks.json` file. This JSON file contains a list of hooks grouped by ChainID. In the changes, you must include a JSON object with the following structure and data in the correct ChainID where your hooks are live:
 
-```json
+```
+Available Chains:
+- Mantle (ChainID: 5000)
+- Blast (ChainID: 81457)
+```
+
+```JSON
+JSON structure:
+
 {
   "name": "Name of the Hook",
   "protocol": "Protocol Name",
