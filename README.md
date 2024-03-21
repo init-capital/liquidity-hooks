@@ -27,16 +27,17 @@ Available Chains:
 JSON structure:
 
 {
+  "id": "<chainID>-<protocol>-<hookName> (Use camelCase)",
   "name": "Name of the Hook",
   "protocol": "Protocol Name",
-  "url": "URL to the website for which the hook is built",
+  "url": "URL of the interface where user can use the hook",
   "contractAddress": "Hook Contract address",
-  "logoUrl": "URL to the logo image of the protocol for the hook",
+  "logoUrl": "URL to the logo image for the hook",
   "type": "Choose one: LOOPING | MARGIN_TRADING | LEVERAGED_YIELD_FARMING | VAULT | YIELD_STRATEGY",
   "supportedAssets": ["List of the supported asset addresses"],
   "description": "Description of how the hook works",
   "apyEndpoint": "Optional: The endpoint of the APY of the hook",
-  "fee": "Optional: If the hook has a fee, specify it here"
+  "fee": "Optional: If the hook has a fee, specify it here (BPS)"
 }
 ```
 

@@ -1,6 +1,7 @@
 {
   "5000": [
     {
+      "id": "5000-init-mETHLoopingHook",
       "name": "mETH Looping Hook",
       "protocol": "INIT",
       "url": "https://app.init.capital/mantle/hooks/looping/0x5071c003bb45e49110a905c1915ebdd2383a89df",
@@ -16,6 +17,7 @@
       "fee": ""
     },
     {
+      "id": "5000-1delta-1deltaHook",
       "name": "1delta Hook",
       "protocol": "1delta.io",
       "url": "https://app.1delta.io/margin?chain=mantle&lender=init&inputCurrency=0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
