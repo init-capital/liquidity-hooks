@@ -43,7 +43,7 @@
       "protocol": "fusionx.finance",
       "url": "https://margin.fusionx.finance/margin?chain=mantle&lender=init&operation=Open&inputCurrency=0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9&outputCurrency=0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8",
       "contractAddress": "0xe4Fe22F64F37bA62BDDFeD3B05DaBcc1F01Ad1Ad",
-      "logoUrl": "hhttps://fusionx.finance/logo.png",
+      "logoUrl": "https://fusionx.finance/logo.png",
       "type": "LOOPING",
       "supportedAssets": [
         "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
