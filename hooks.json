@@ -1,7 +1,7 @@
 {
   "5000": [
     {
-      "id": "5000-init-mETHLoopingHook",
+      "id": "5000-init-mETHNeutralLoopingHook",
       "name": "mETH Looping Hook",
       "protocol": "INIT",
       "url": "https://app.init.capital/mantle/hooks/looping/0x5071c003bb45e49110a905c1915ebdd2383a89df",
